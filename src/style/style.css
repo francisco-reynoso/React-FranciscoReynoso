@@ -1,0 +1,11 @@
+
+.categorias{
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+    cursor: pointer;
+    text-align: center;
+}
+.linea{
+    box-shadow: 1px 1px 1px grey;    
+}
+
