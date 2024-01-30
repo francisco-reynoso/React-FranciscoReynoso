@@ -3,9 +3,25 @@
     font-size: 20px;
     padding: 20px 0px 0px 0px;
     cursor: pointer;
+    text-decoration: none;
     text-align: center;
 }
 .linea{
-    box-shadow: 1px 1px 1px grey;    
+    border-bottom: 0.5px solid  grey;  
+      
 }
 
+.contTarjeta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items:space-around; 
+      
+    
+}
+
+.tarjeta{
+    margin: 10px;
+    width: 30%;
+}

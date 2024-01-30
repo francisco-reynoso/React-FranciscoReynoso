@@ -6,16 +6,7 @@ const NavBar = () =>{
             <div className="row">
                 <Buscador/>
             </div>
-            <div className="row linea">
-               <Categorias categoria={"BEAUTY SALE"}/>
-               <Categorias categoria={"FRAGANCIAS"}/>
-               <Categorias categoria={"MAQUILLAJE"}/>
-               <Categorias categoria={"TRATAMIENTO"}/>
-               <Categorias categoria={"CAPILAR"}/>
-               <Categorias categoria={"REGALOS"}/>
-               <Categorias categoria={"MARCAS"}/>
-               <Categorias categoria={"THE ROAD TO BEAUTY"}/>
-            </div>
+            <Categorias></Categorias>
         </div>
     )
 };
